@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS noise
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Vitest / coverage
+coverage/
+# Never commit GitHub credentials
+github_credentials.md
+
+# TypeScript incremental build cache
+*.tsbuildinfo
